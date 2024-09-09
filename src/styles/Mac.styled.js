@@ -137,6 +137,10 @@ export const PrologueWrapper = styled.div`
         font-size: 3rem;
       }
     }
+    .video-control {
+      right: 10px;
+      bottom: 10px;
+    }
   }
 `;
 
@@ -317,9 +321,11 @@ export const MacSlideWrapper = styled.div`
  */
 export const TabWrapper = styled.div`
   padding: 0 6% 50px;
-  transition-delay: 0.2s;
+  &.tabs {
+    transition-delay: 0.2s;
+  }
   .tab {
-    margin-right: 15px;
+    margin-right: 12px;
     padding: 10px 24px;
     border-radius: 50px;
     background-color: #fafafa;
@@ -351,6 +357,38 @@ export const TabContWrapper = styled.div`
       opacity: 1;
     }
   }
+  @media (max-width: 734px) {
+    .mac-lineUp {
+      .swiper-slide {
+        width: 304px;
+        text-align: left;
+        picture {
+          height: 180px;
+          margin-bottom: 40px;
+          padding: 0;
+          img {
+            left: 0;
+            transform: translateX(0);
+          }
+        }
+        .slide-info .desc {
+          margin: 15px 0;
+        }
+        .slide-info .slide-btn {
+          justify-content: flex-start !important;
+          padding: 30px 0 60px;
+        }
+        .slide-detail-info {
+          gap: 40px;
+          margin: 50px 0;
+          padding: 0 40px 0 0;
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
 `;
 
 /**
@@ -365,13 +403,13 @@ export const AccordionWrapper = styled.div`
       overflow: hidden;
       border-radius: 30px;
       background-color: var(--color-faf);
-      .info-accordion {
-        width: 100%;
-        padding: 100px 80px 100px;        
-      }
-      .info-image {
-        padding: 80px 60px 80px 0;
-      }
+    }
+    .info-accordion {
+      width: 100%;
+      padding: 100px 80px 100px;        
+    }
+    .info-image {
+      padding: 80px 60px 80px 0;
     }
   }
   @media (max-width: 1068px) {
@@ -385,9 +423,9 @@ export const AccordionWrapper = styled.div`
   @media (max-width: 734px) {
     .info-wrapper {
       padding: 0 6% 90px;
-    }
-    .info-accordion {
-      padding: 30px;
+      .info-accordion {
+        padding: 30px;
+      }
     }
   }
 }
@@ -444,7 +482,7 @@ export const Accordion = styled.div`
     }
   }
   @media (max-width: 734px) {
-    a {
+    .accordion-tit {
       font-size: 1.4rem;
     }
   }
