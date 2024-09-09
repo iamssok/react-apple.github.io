@@ -137,9 +137,11 @@ export const PrologueWrapper = styled.div`
         font-size: 3rem;
       }
     }
-    .video-control {
-      right: 10px;
-      bottom: 10px;
+    .prologue-video-wrapper {
+      .video-control {
+        right: 10px;
+        bottom: 10px;
+      }
     }
   }
 `;
@@ -325,7 +327,7 @@ export const TabWrapper = styled.div`
     transition-delay: 0.2s;
   }
   .tab {
-    margin-right: 12px;
+    margin-right: 10px;
     padding: 10px 24px;
     border-radius: 50px;
     background-color: #fafafa;
@@ -345,7 +347,9 @@ export const TabWrapper = styled.div`
 export const TabContWrapper = styled.div`
   position: relative;
   height: 1080px;
-  transition-delay: 0.4s;
+  &.tab-conts {    
+    transition-delay: 0.4s;
+  }
   .tab-cont {
     visibility: hidden;
     position: absolute;

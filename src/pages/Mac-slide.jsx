@@ -177,7 +177,7 @@ export function MacSlide() {
             </div>
           ))}
         </M.TabWrapper>
-        <M.TabContWrapper className="fade-up-20">
+        <M.TabContWrapper className="fade-up-20 tab-conts">
           <div className={`tab-cont ${activeTab === 0 ? 'on' : ''}`}>
             <Swiper slidesPerView={'auto'} spaceBetween={0} navigation={true} modules={[Navigation]} className="mac-lineUp">
               <SwiperSlide>

@@ -177,6 +177,7 @@ export const Section0 = styled.section`
 `;
 
 export const Section1 = styled.section`
+  overflow: hidden;
   .w-980 {
     width: 980px;
     color: var(--color-f57);    
