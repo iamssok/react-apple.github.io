@@ -377,6 +377,27 @@ export const Section2 = styled.section`
     .img-wrap {
       margin-left: -474px;
     }
+    .screen-wrap {
+      width: 190px;
+      height: 178px;
+      margin-left: -95px;
+      picture {
+        width: 190px;
+        height: 178px;
+        -webkit-mask-image: url(mask/screen_mask_small.png);
+        mask-image: url(mask/screen_mask_small.png);
+      }
+    }
+    .stack-wrap {
+      width: 948px;
+      height: 452px;
+      picture {
+        width: 948px;
+        height: 452px;
+        -webkit-mask-image: url(mask/scenarios_mask_small.png);
+        mask-image: url(mask/scenarios_mask_small.png);
+      }
+    }
   }
 `;
 
