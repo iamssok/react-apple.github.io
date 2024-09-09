@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/apple.github.io/static/css/main.d3aace4a.css",
-    "main.js": "/apple.github.io/static/js/main.b4affe2a.js",
+    "main.js": "/apple.github.io/static/js/main.0533a913.js",
     "static/media/Pretendard-Black.subset.woff": "/apple.github.io/static/media/Pretendard-Black.subset.9748a4898931104fb46b.woff",
     "static/media/Pretendard-ExtraBold.subset.woff": "/apple.github.io/static/media/Pretendard-ExtraBold.subset.819ba6b8b367336d9572.woff",
     "static/media/Pretendard-Bold.subset.woff": "/apple.github.io/static/media/Pretendard-Bold.subset.fd82943b2c9a8209851b.woff",
@@ -52,10 +52,10 @@
     "static/media/home_module1_iphone15pro_small.jpg": "/apple.github.io/static/media/home_module1_iphone15pro_small.19da24eccb0386f7d097.jpg",
     "index.html": "/apple.github.io/index.html",
     "main.d3aace4a.css.map": "/apple.github.io/static/css/main.d3aace4a.css.map",
-    "main.b4affe2a.js.map": "/apple.github.io/static/js/main.b4affe2a.js.map"
+    "main.0533a913.js.map": "/apple.github.io/static/js/main.0533a913.js.map"
   },
   "entrypoints": [
     "static/css/main.d3aace4a.css",
-    "static/js/main.b4affe2a.js"
+    "static/js/main.0533a913.js"
   ]
 }
