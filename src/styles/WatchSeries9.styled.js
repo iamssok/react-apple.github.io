@@ -375,6 +375,8 @@ export const Section2 = styled.section`
       }
     }
     .img-wrap {
+      width: 948px;
+      height: 452px;
       margin-left: -474px;
     }
     .screen-wrap {
