@@ -103,7 +103,7 @@ export const Section0 = styled.section`
     transform: translate3d(0, 100%, 0);
     span {
       font-weight: 600;
-      font-size: 4vw;
+      font-size: 20px;
       color: var(--color-fff);
       opacity: .1;
     }
@@ -118,8 +118,8 @@ export const Section0 = styled.section`
     }
     .tit-wrapper h1 {
       z-index: 1;
-      margin-top: 180px;
-      font-size: 60px;
+      margin-top: 160px;
+      font-size: 58px;
     }
     .canvas-wrapper .p {
       display: none;
@@ -133,10 +133,10 @@ export const Section0 = styled.section`
     }
     .button-wrapper .btn {
       flex-direction: column;
-      gap: 5px;
+      gap: 4px;
     }
     .button-wrapper a {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 `;
@@ -172,7 +172,7 @@ export const Section1 = styled.section`
       height: 538px;
       border-bottom: 1px solid rgba(245,245,245,.3);
       &:last-child {
-        padding: 7.5vw 6vw;
+        padding: 7.5vw 12vw;
         border-left: 1px solid rgba(245,245,245,.3);
         text-align: left;
       }
@@ -223,7 +223,7 @@ export const Section1 = styled.section`
       padding: 0 12%;
     }
     .block-1 .txt-wrapper h1 {
-      font-size: 50px;
+      font-size: 46px;
       line-height: 56px;
     }
     .block-2 div {
@@ -235,7 +235,7 @@ export const Section1 = styled.section`
       width: 280px;
     }
     .block-2 div p {
-      font-size: 22px;
+      font-size: 20px;
     }
   }
 `;
@@ -316,7 +316,10 @@ export const Section2 = styled.section`
   }
   @media (max-width: 734px) {  
     .scroll-motion-1,
-    .scroll-motion-2,
+    .scroll-motion-2 {
+      top: 50%;
+      margin-top: -123px;
+    }
     .scroll-motion-3 {
       top: 50%;
       margin-top: -163px;
@@ -329,7 +332,7 @@ export const Section2 = styled.section`
     }
     video {
       top: 50%;
-      width: 1200px;
+      width: 1220px;
       height: 972px;
       margin-top: -486px;
       margin-left: -600px;
