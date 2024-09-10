@@ -16,7 +16,7 @@ function WatchSeries9() {
       </W.Loading>
       <W.LocalNavWrapper className="local-nav-wrapper">
         <div className="d-flex flex-space-between flex-align-center mx-auto local-nav">
-          <h5>Watch Series9</h5>
+          <h5>Watch Series 9</h5>
           <Link to="" onClick={(e) => e.preventDefault()}>구입하기</Link>
         </div>
       </W.LocalNavWrapper>
@@ -139,8 +139,8 @@ function WatchSeries9() {
           </ul>
         </div>
         <div className="pos-fixed obj img-wrap">
-          <div className="pos-abs screen-wrap">
-            <picture className="img e">
+          <div className="pos-abs screen-wrap">            
+            {/* <picture className="img e">
 							<source media="(max-width:734px)" srcSet="https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_stacks__fmx64kict3qm_small.jpg, https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_stacks__fmx64kict3qm_small_2x.jpg 2x" />
               <source media="(min-width:0px)" srcSet="https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_stacks__fmx64kict3qm_large.jpg, https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_stacks__fmx64kict3qm_large_2x.jpg 2x" />
               <img src="https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_stacks__fmx64kict3qm_large.jpg" alt="" />
@@ -159,7 +159,7 @@ function WatchSeries9() {
 							<source media="(max-width:734px)" srcSet="https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_phone__dii99ouyh3ee_small.jpg, https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_phone__dii99ouyh3ee_small_2x.jpg 2x" />
               <source media="(min-width:0px)" srcSet="https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_phone__dii99ouyh3ee_large.jpg, https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_phone__dii99ouyh3ee_large_2x.jpg 2x" />
               <img src="https://www.apple.com/kr/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_phone__dii99ouyh3ee_large.jpg" alt="" />
-						</picture>
+						</picture> */}
             <picture className="img a">
               <source media="(max-width:734px)" srcSet="https://www.apple.com/v/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_music_avail__dm2drfyz5802_small.jpg, https://www.apple.com/v/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_music_avail__dm2drfyz5802_small_2x.jpg 2x" />
               <source media="(min-width:0px)" srcSet="https://www.apple.com/v/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_music_avail__dm2drfyz5802_large.jpg, https://www.apple.com/v/apple-watch-series-9/d/images/overview/gestures/kinetic_scenarios_screen_music_avail__dm2drfyz5802_large_2x.jpg 2x" />
@@ -175,7 +175,7 @@ function WatchSeries9() {
           </div>
         </div>
       </W.Section2>
-      <W.Section3>
+      <W.Section3 id="scroll-section-3">
         <div className="pos-rel mx-auto w-980 go">
           <div className="img-wrap slide-up-100">
             <picture className="pos-abs non-brightness">

@@ -177,7 +177,6 @@ export const Section0 = styled.section`
 `;
 
 export const Section1 = styled.section`
-  overflow: hidden;
   .w-980 {
     width: 980px;
     color: var(--color-f57);    
@@ -202,6 +201,7 @@ export const Section1 = styled.section`
     }
   }
   .w-100 {
+    overflow: hidden;
     margin-top: 100px;
     h1 {
       font-weight: 600;
@@ -380,6 +380,7 @@ export const Section2 = styled.section`
       margin-left: -474px;
     }
     .screen-wrap {
+      top: 30px;
       width: 190px;
       height: 178px;
       margin-left: -95px;

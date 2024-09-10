@@ -35,7 +35,7 @@ export const UnitCopyWrapper = styled.div`
   }
   .blue-link {
     display: inline-block;
-    margin: 0 0.6%;
+    margin: 0 1%;
     padding: 9px 20px;
     border-radius: 100px;
     background-color: var(--color-06c);
@@ -44,7 +44,7 @@ export const UnitCopyWrapper = styled.div`
   }
   .blueLine-link {
     display: inline-block;
-    margin: 0 0.6%;
+    margin: 0 1%;
     padding: 9px 20px;
     border: 1px solid var(--color-06c);
     border-radius: 100px;

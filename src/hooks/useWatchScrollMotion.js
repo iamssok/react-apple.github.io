@@ -58,34 +58,34 @@ function useWatchScrollMotion() {
             txtC: document.querySelector("#scroll-section-2 .txt.c"),
             txtD: document.querySelector("#scroll-section-2 .txt.d"),
             txtE: document.querySelector("#scroll-section-2 .txt.e"),
-            imgA: document.querySelector("#scroll-section-2 .img.a"),
+            /*imgA: document.querySelector("#scroll-section-2 .img.a"),
             imgB: document.querySelector("#scroll-section-2 .img.b"),
             imgC: document.querySelector("#scroll-section-2 .img.c"),
             imgD: document.querySelector("#scroll-section-2 .img.d"),
-            imgE: document.querySelector("#scroll-section-2 .img.e"),
+            imgE: document.querySelector("#scroll-section-2 .img.e"),*/
           },
           values: {            
             objTextWrap_in: [1000, 300, { start: 0, end: 0.09 }],
             objImgWrap_in: [1150, 450, { start: 0, end: 0.09 }],
-            imgA_out_opacity: [1, 0, { start: 0.13, end: 0.22 }],
+            //imgA_out_opacity: [1, 0, { start: 0.13, end: 0.22 }],
             txtA_out_opacity: [1, 0, { start: 0.1, end: 0.22 }],
             txtA_out_scale: [1, 0.95, { start: 0.1, end: 0.22 }],
             txtA_out_y: [0, -100, { start: 0.1, end: 0.22 }],
             txtB_in_opacity: [0, 1, { start: 0.12, end: 0.22 }],
             txtB_in_y: [300, 0, { start: 0.12, end: 0.22 }],
-            imgB_out_opacity: [1, 0, { start: 0.26, end: 0.35 }],
+            //imgB_out_opacity: [1, 0, { start: 0.26, end: 0.35 }],
             txtB_out_opacity: [1, 0, { start: 0.23, end: 0.35 }],
             txtB_out_scale: [1, 0.95, { start: 0.23, end: 0.35 }],
             txtB_out_y: [0, -100, { start: 0.23, end: 0.35 }],
             txtC_in_opacity: [0, 1, { start: 0.25, end: 0.35 }],
             txtC_in_y: [300, 0, { start: 0.25, end: 0.35 }],
-            imgC_out_opacity: [1, 0, { start: 0.39, end: 0.48 }],
+            //imgC_out_opacity: [1, 0, { start: 0.39, end: 0.48 }],
             txtC_out_opacity: [1, 0, { start: 0.36, end: 0.48 }],
             txtC_out_scale: [1, 0.95, { start: 0.36, end: 0.48 }],
             txtC_out_y: [0, -100, { start: 0.36, end: 0.48 }],
             txtD_in_opacity: [0, 1, { start: 0.38, end: 0.48 }],
             txtD_in_y: [300, 0, { start: 0.38, end: 0.48 }],
-            imgD_out_opacity: [1, 0, { start: 0.52, end: 0.61 }],
+            //imgD_out_opacity: [1, 0, { start: 0.52, end: 0.61 }],
             txtD_out_opacity: [1, 0, { start: 0.49, end: 0.61 }],
             txtD_out_scale: [1, 0.95, { start: 0.49, end: 0.61 }],
             txtD_out_y: [0, -100, { start: 0.49, end: 0.61 }],
@@ -253,10 +253,10 @@ function useWatchScrollMotion() {
             values.txtA_out_y,
             currentScrollY
           )}px,0)`;
-          objs.imgA.style.opacity = calcValues(
+          /*objs.imgA.style.opacity = calcValues(
             values.imgA_out_opacity,
             currentScrollY
-          );
+          );*/
 
           if (scrollRatio < 0.23) {
             objs.txtB.style.opacity = calcValues(
@@ -281,12 +281,12 @@ function useWatchScrollMotion() {
             )}px,0)`;
           }
 
-          if (scrollRatio >= 0.26 && scrollRatio <= 0.35) {              
+          /*if (scrollRatio >= 0.26 && scrollRatio <= 0.35) {              
             objs.imgB.style.opacity = calcValues(
               values.imgB_out_opacity,
               currentScrollY
             );
-          }
+          }*/
 
           if (scrollRatio < 0.36) {
             objs.txtC.style.opacity = calcValues(
@@ -311,12 +311,12 @@ function useWatchScrollMotion() {
             )}px,0)`;
           }
 
-          if (scrollRatio >= 0.39 && scrollRatio <= 0.48) {
+          /*if (scrollRatio >= 0.39 && scrollRatio <= 0.48) {
             objs.imgC.style.opacity = calcValues(
               values.imgC_out_opacity,
               currentScrollY
             );
-          }
+          }*/
 
           if (scrollRatio < 0.49) {
             objs.txtD.style.opacity = calcValues(
@@ -341,12 +341,12 @@ function useWatchScrollMotion() {
             )}px,0)`;
           }
 
-          if (scrollRatio >= 0.52 && scrollRatio <= 0.61) {
+          /*if (scrollRatio >= 0.52 && scrollRatio <= 0.61) {
             objs.imgD.style.opacity = calcValues(
               values.imgD_out_opacity,
               currentScrollY
             );
-          }
+          }*/
 
           objs.txtE.style.opacity = calcValues(
             values.txtE_in_opacity,
