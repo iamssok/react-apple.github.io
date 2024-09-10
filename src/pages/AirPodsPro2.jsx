@@ -9,7 +9,7 @@ function AirPodsPro2() {
     <>
       <A.LocalNavWrapper className="local-nav-wrapper">
         <div className="d-flex flex-space-between flex-align-center mx-auto local-nav">
-          <h5>AirPods Pro2</h5>
+          <h5>AirPods Pro 2</h5>
           <Link to="" onClick={(e) => e.preventDefault()}>구입하기</Link>
         </div>
       </A.LocalNavWrapper>

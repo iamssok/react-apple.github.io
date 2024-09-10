@@ -203,6 +203,7 @@ export const Section1 = styled.section`
   .w-100 {
     overflow: hidden;
     margin-top: 100px;
+    padding-bottom: 100px;
     h1 {
       font-weight: 600;
       font-size: 150px;
@@ -297,7 +298,7 @@ export const Section2 = styled.section`
     transform: scale(1) translate3d(0, 300px, 0);    
     li {
       float: left;
-      margin: 0 8px;
+      margin: 0 6px;
     }
     .pc {
       display: blcok;

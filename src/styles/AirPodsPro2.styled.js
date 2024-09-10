@@ -129,7 +129,7 @@ export const Section0 = styled.section`
       margin-top: -220px;
     }
     .button-wrapper {
-      bottom: 240px;
+      bottom: 20vh;
     }
     .button-wrapper .btn {
       flex-direction: column;
@@ -196,6 +196,7 @@ export const Section1 = styled.section`
     }
     .block-1 .txt-wrapper p:last-child {
       padding: 30px 0 110px;
+      font-size: 20px;
     }
     .block-1 .txt-wrapper h1 {
       font-size: 80px;
@@ -222,7 +223,7 @@ export const Section1 = styled.section`
       padding: 0 12%;
     }
     .block-1 .txt-wrapper h1 {
-      font-size: 52px;
+      font-size: 50px;
       line-height: 56px;
     }
     .block-2 div {
@@ -317,13 +318,21 @@ export const Section2 = styled.section`
     .scroll-motion-1,
     .scroll-motion-2,
     .scroll-motion-3 {
-      top: 295px;
+      top: 50%;
+      margin-top: -163px;
     }
     .scroll-motion-1 p,
     .scroll-motion-2 p {
       width: 280px;
       margin-left: -140px;
       font-size: 16px;
+    }
+    video {
+      top: 50%;
+      width: 1200px;
+      height: 972px;
+      margin-top: -486px;
+      margin-left: -600px;
     }
   }
 `;
