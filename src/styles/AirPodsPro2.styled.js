@@ -114,19 +114,19 @@ export const Section0 = styled.section`
   @media (max-width: 734px) {
     .tit-wrapper p {
       z-index: 1;
-      font-size: 8vw;
+      font-size: 32px;
     }
     .tit-wrapper h1 {
       z-index: 1;
       margin-top: 160px;
-      font-size: 58px;
+      font-size: 56px;
     }
     .canvas-wrapper .p {
       display: none;
     }
     .canvas-wrapper .m {
       display: block !important;
-      margin-top: -220px;
+      margin-top: -210px;
     }
     .button-wrapper {
       bottom: 20vh;
@@ -177,7 +177,7 @@ export const Section1 = styled.section`
         text-align: left;
       }
       p {
-        font-weight: 700;
+        font-weight: 600;
         font-size: 28px;
         color: #6e6e73;
         span {
@@ -223,8 +223,9 @@ export const Section1 = styled.section`
       padding: 0 12%;
     }
     .block-1 .txt-wrapper h1 {
+      font-weight: 700;
       font-size: 46px;
-      line-height: 56px;
+      line-height: 54px;
     }
     .block-2 div {
       display: flex;
@@ -308,7 +309,7 @@ export const Section2 = styled.section`
     }
     .scroll-motion-1 p,
     .scroll-motion-2 p {
-      top: -100px;
+      top: -120px;
       left: 50%;
       width: 600px;
       margin-left: -300px;
@@ -318,7 +319,7 @@ export const Section2 = styled.section`
     .scroll-motion-1,
     .scroll-motion-2 {
       top: 50%;
-      margin-top: -123px;
+      margin-top: -100px;
     }
     .scroll-motion-3 {
       top: 50%;
