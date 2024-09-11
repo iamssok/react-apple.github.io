@@ -423,15 +423,42 @@ function useWatchScrollMotion() {
     initializeSceneInfo();
     setLayout();
 
+    let tempScrollY = scrollY;
+    let tempScrollCount = 0;
+    
+    if (scrollY > 0) {
+      let siId = setInterval(() => {
+        window.scrollTo(0, tempScrollY);
+        tempScrollY += 1;
+  
+        if (tempScrollCount > 5) {
+          clearInterval(siId);
+        }
+        tempScrollCount++;
+      }, 20);
+    }
+
     window.addEventListener("scroll", () => {
       scrollY = window.scrollY || window.pageYOffset;
       scrollLoop();
       fixedLocalNav();
     });
 
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 900) {
+        setLayout();
+      }
+    });
+
+    window.addEventListener("orientationchange", () => {
+      setTimeout(setLayout, 100);
+    });
+
     return () => {
       window.removeEventListener("load", setLayout);
       window.removeEventListener("scroll", scrollLoop);
+      window.removeEventListener("resize", setLayout);
+      window.removeEventListener("orientationchange", setLayout);
     };
 
   }, []);

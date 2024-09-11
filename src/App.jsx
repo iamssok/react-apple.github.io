@@ -15,6 +15,7 @@ function App() {
   if (MatchStore) {
     document.body.style.backgroundColor = "var(--color-f57)";
   } else if (MatchWatchSeries9 || MatchAirPodsPro2) {
+    // document.body.classList.add("before-load");
     document.body.style.backgroundColor = "var(--color-000)";
   } else {
     document.body.style.backgroundColor = "var(--color-fff)";

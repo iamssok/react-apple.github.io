@@ -103,7 +103,7 @@ export const Section0 = styled.section`
     transform: translate3d(0, 100%, 0);
     span {
       font-weight: 600;
-      font-size: 20px;
+      font-size: 50px;
       color: var(--color-fff);
       opacity: .1;
     }
@@ -138,6 +138,11 @@ export const Section0 = styled.section`
     .button-wrapper a {
       font-size: 16px;
     }
+    .text-wrapper {
+      span {
+        font-size: 20px;
+      }
+    }
   }
 `;
 
@@ -153,14 +158,14 @@ export const Section1 = styled.section`
       font-weight: 600;
       font-size: 30px;
       &:last-child {
-        max-width: 800px;
+        max-width: 976px;
         padding: 40px 0 110px;
       }
     }
     h1 {
       padding-top: 30px;
       font-weight: 600;
-      font-size: 114px;
+      font-size: 110px;
       letter-spacing: -1px;
       line-height: 124px;
     }
