@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d build"
     
   },
-  "homepage": "https://iamssok.github.io/apple.github.io",
+  "homepage": "https://clonecoding-by-react.vercel.app",
   "eslintConfig": {
     "extends": [
       "react-app",
