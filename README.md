@@ -19,7 +19,7 @@
 
 ## Stack
 - [x] HTML5
-- [ ] CSS3
+- [x] CSS3
 - [ ] SCSS
 - [x] Styled-Components
 - [x] JavaScript
