@@ -4,10 +4,6 @@
 - [x] 비디오 컨트롤 Hook 만들기
 - [ ] swiper 라이브러리 인터랙션 반응형 웹
 
-## HOME
-- [x] 비디오 컨트롤 Hook 만들기
-- [x] swiper/react로 반응형 슬라이드 만들기
-
 ## STORE
 - [x] 
 
