@@ -2,10 +2,10 @@
 
 ## HOME
 - [x] 비디오 컨트롤 Hook 만들기
-- [x] swiper/react 반응형 슬라이드 만들
+- [x] swiper/react 반응형 슬라이드 만들기
 
 ## STORE
-- [x] 
+- [x] swiper/react 슬라이드 만들기
 
 ## Mac
 - [x] 스크롤 애니메이션 Hook 만들기
