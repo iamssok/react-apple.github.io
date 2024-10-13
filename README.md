@@ -1,4 +1,8 @@
-# [인터랙션 반응형 웹](https://clonecoding-by-react.vercel.app/)
+# [인터랙션 반응형 웹](https://clonecoding-by-react.vercel.app/) (2024.07 ~ 09)
+
+## Header, Footer (Component)
+- [x] 브라우저 너비값 반환하는 Hook 만들기
+- [x] 반응형 메뉴
 
 ## HOME
 - [x] 비디오 컨트롤 Hook 만들기
