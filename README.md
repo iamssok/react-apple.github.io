@@ -1,4 +1,5 @@
-# [인터랙션 반응형 웹](https://clonecoding-by-react.vercel.app/) (2024.07 ~ 09)
+# [인터랙션 반응형 웹](https://clonecoding-by-react.vercel.app/)
+(2024.07 ~ 09)
 
 ### Header, Footer (Component)
 - [x] 브라우저 너비값 반환하는 Hook 만들기
@@ -21,7 +22,7 @@
 ### AirPodsPro2
 - [ ] 스크롤 애니메이션 구현하기 (구현은 했지만 몇가지 오류가 있음)
 
-### Stack
+## Stack
 - [x] HTML5
 - [x] CSS3
 - [ ] SCSS
