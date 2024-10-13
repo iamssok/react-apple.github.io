@@ -4,24 +4,24 @@
 - [x] 브라우저 너비값 반환하는 Hook 만들기
 - [x] 반응형 메뉴
 
-## HOME
+### HOME
 - [x] 비디오 컨트롤 Hook 만들기
 - [x] swiper/react 반응형 슬라이드 만들기
 
-## STORE
+### STORE
 - [x] swiper/react 슬라이드 만들기
 
-## Mac
+### Mac
 - [x] 스크롤 애니메이션 Hook 만들기
 - [x] 반응형 아코디언 기능 구현
 
-## WatchSeries9
+### WatchSeries9
 - [ ] 스크롤 애니메이션 구현하기 (구현은 했지만 몇가지 오류가 있음)
 
-## AirPodsPro2
+### AirPodsPro2
 - [ ] 스크롤 애니메이션 구현하기 (구현은 했지만 몇가지 오류가 있음)
 
-## Stack
+### Stack
 - [x] HTML5
 - [x] CSS3
 - [ ] SCSS
