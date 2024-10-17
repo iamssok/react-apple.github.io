@@ -38,11 +38,12 @@
 - [x] HTML5
 - [x] CSS3
 - [ ] SCSS
-- [x] Styled-Components
 - [x] JavaScript
+- [ ] jQuery
 - [x] React
 - [ ] TypeScript
 - [ ] TanStack Query (React Query)
 - [ ] Recoil
+- [x] Styled-Components
 - [ ] Bootstrap
 - [x] ChatGPT
